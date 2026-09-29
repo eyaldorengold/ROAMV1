@@ -1,0 +1,942 @@
+{
+  "mall": {
+    "id": "sample-mall",
+    "name": "Sunset Plaza (Sample Mall)",
+    "languages": [
+      "en",
+      "es",
+      "he"
+    ],
+    "mapSize": {
+      "width": 600,
+      "height": 1000
+    },
+    "levels": [
+      {
+        "number": 1,
+        "name": "Level 1"
+      },
+      {
+        "number": 2,
+        "name": "Level 2"
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "nike",
+      "name": "Nike",
+      "category": "shoes",
+      "level": 1,
+      "nodeId": "L1-D-nike",
+      "keywords": [
+        "sneakers",
+        "running shoes",
+        "sportswear",
+        "trainers"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "foot-locker",
+      "name": "Foot Locker",
+      "category": "shoes",
+      "level": 1,
+      "nodeId": "L1-D-foot-locker",
+      "keywords": [
+        "sneakers",
+        "running shoes",
+        "basketball shoes",
+        "trainers"
+      ],
+      "sponsored": true,
+      "promo": "20% off running shoes this week"
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "category": "fashion",
+      "level": 1,
+      "nodeId": "L1-D-zara",
+      "keywords": [
+        "clothes",
+        "dresses",
+        "jackets",
+        "women",
+        "men"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "apple",
+      "name": "Apple Store",
+      "category": "electronics",
+      "level": 1,
+      "nodeId": "L1-D-apple",
+      "keywords": [
+        "iphone",
+        "mac",
+        "phone repair",
+        "laptop",
+        "genius bar"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "sephora",
+      "name": "Sephora",
+      "category": "beauty",
+      "level": 1,
+      "nodeId": "L1-D-sephora",
+      "keywords": [
+        "makeup",
+        "perfume",
+        "skincare",
+        "cosmetics"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "hm",
+      "name": "H&M",
+      "category": "fashion",
+      "level": 1,
+      "nodeId": "L1-D-hm",
+      "keywords": [
+        "clothes",
+        "kids clothes",
+        "basics",
+        "jeans"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "starbucks",
+      "name": "Starbucks",
+      "category": "food",
+      "level": 1,
+      "nodeId": "L1-D-starbucks",
+      "keywords": [
+        "coffee",
+        "cafe",
+        "latte",
+        "breakfast"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "pharmacy",
+      "name": "City Pharmacy",
+      "category": "health",
+      "level": 1,
+      "nodeId": "L1-D-pharmacy",
+      "keywords": [
+        "medicine",
+        "drugstore",
+        "first aid",
+        "prescriptions"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "restroom-1",
+      "name": "Restrooms (Level 1)",
+      "category": "restroom",
+      "level": 1,
+      "nodeId": "L1-D-restroom-1",
+      "keywords": [
+        "toilet",
+        "bathroom",
+        "wc",
+        "baby changing"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "guest-services",
+      "name": "Guest Services",
+      "category": "services",
+      "level": 1,
+      "nodeId": "L1-D-guest-services",
+      "keywords": [
+        "information",
+        "help",
+        "lost and found",
+        "stroller rental",
+        "gift cards"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "adidas",
+      "name": "Adidas",
+      "category": "shoes",
+      "level": 1,
+      "nodeId": "L1-D-adidas",
+      "keywords": [
+        "sneakers",
+        "sportswear",
+        "football",
+        "soccer"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "atm-1",
+      "name": "ATM",
+      "category": "services",
+      "level": 1,
+      "nodeId": "L1-D-atm-1",
+      "keywords": [
+        "cash",
+        "bank",
+        "money"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "parking-p1",
+      "name": "Parking – Level P1",
+      "category": "parking",
+      "level": 1,
+      "nodeId": "L1-ENT-E",
+      "keywords": [
+        "car",
+        "garage",
+        "parking lot",
+        "p1"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "cinema",
+      "name": "Cineplex Cinema",
+      "category": "entertainment",
+      "level": 2,
+      "nodeId": "L2-D-cinema",
+      "keywords": [
+        "movies",
+        "films",
+        "tickets",
+        "imax"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "lego",
+      "name": "LEGO Store",
+      "category": "kids",
+      "level": 2,
+      "nodeId": "L2-D-lego",
+      "keywords": [
+        "toys",
+        "kids",
+        "gifts",
+        "bricks"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "books",
+      "name": "Page Turner Books",
+      "category": "books",
+      "level": 2,
+      "nodeId": "L2-D-books",
+      "keywords": [
+        "bookstore",
+        "books",
+        "magazines",
+        "stationery"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "best-buy",
+      "name": "Best Buy",
+      "category": "electronics",
+      "level": 2,
+      "nodeId": "L2-D-best-buy",
+      "keywords": [
+        "tv",
+        "headphones",
+        "laptops",
+        "gaming",
+        "cameras"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "mcdonalds",
+      "name": "McDonald's",
+      "category": "food",
+      "level": 2,
+      "nodeId": "L2-D-mcdonalds",
+      "keywords": [
+        "burger",
+        "fries",
+        "fast food",
+        "food court"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "sushi",
+      "name": "Sushi Station",
+      "category": "food",
+      "level": 2,
+      "nodeId": "L2-D-sushi",
+      "keywords": [
+        "japanese",
+        "sushi",
+        "ramen",
+        "food court"
+      ],
+      "sponsored": true,
+      "promo": "Free miso soup with any combo"
+    },
+    {
+      "id": "restroom-2",
+      "name": "Restrooms (Level 2)",
+      "category": "restroom",
+      "level": 2,
+      "nodeId": "L2-D-restroom-2",
+      "keywords": [
+        "toilet",
+        "bathroom",
+        "wc",
+        "baby changing"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza Napoli",
+      "category": "food",
+      "level": 2,
+      "nodeId": "L2-D-pizza",
+      "keywords": [
+        "pizza",
+        "italian",
+        "pasta",
+        "food court"
+      ],
+      "sponsored": false
+    },
+    {
+      "id": "tacos",
+      "name": "Taco Loco",
+      "category": "food",
+      "level": 2,
+      "nodeId": "L2-D-tacos",
+      "keywords": [
+        "mexican",
+        "tacos",
+        "burritos",
+        "food court"
+      ],
+      "sponsored": false
+    }
+  ],
+  "nodes": [
+    {
+      "id": "L1-C100",
+      "level": 1,
+      "x": 300,
+      "y": 100,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C200",
+      "level": 1,
+      "x": 300,
+      "y": 200,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C300",
+      "level": 1,
+      "x": 300,
+      "y": 300,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C400",
+      "level": 1,
+      "x": 300,
+      "y": 400,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C500",
+      "level": 1,
+      "x": 300,
+      "y": 500,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C600",
+      "level": 1,
+      "x": 300,
+      "y": 600,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C700",
+      "level": 1,
+      "x": 300,
+      "y": 700,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C800",
+      "level": 1,
+      "x": 300,
+      "y": 800,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-C900",
+      "level": 1,
+      "x": 300,
+      "y": 900,
+      "type": "corridor"
+    },
+    {
+      "id": "L1-STAIRS",
+      "level": 1,
+      "x": 350,
+      "y": 100,
+      "type": "stairs"
+    },
+    {
+      "id": "L1-ESC",
+      "level": 1,
+      "x": 350,
+      "y": 500,
+      "type": "escalator"
+    },
+    {
+      "id": "L1-ELV",
+      "level": 1,
+      "x": 350,
+      "y": 900,
+      "type": "elevator"
+    },
+    {
+      "id": "L2-C100",
+      "level": 2,
+      "x": 300,
+      "y": 100,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C200",
+      "level": 2,
+      "x": 300,
+      "y": 200,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C300",
+      "level": 2,
+      "x": 300,
+      "y": 300,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C400",
+      "level": 2,
+      "x": 300,
+      "y": 400,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C500",
+      "level": 2,
+      "x": 300,
+      "y": 500,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C600",
+      "level": 2,
+      "x": 300,
+      "y": 600,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C700",
+      "level": 2,
+      "x": 300,
+      "y": 700,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C800",
+      "level": 2,
+      "x": 300,
+      "y": 800,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-C900",
+      "level": 2,
+      "x": 300,
+      "y": 900,
+      "type": "corridor"
+    },
+    {
+      "id": "L2-STAIRS",
+      "level": 2,
+      "x": 350,
+      "y": 100,
+      "type": "stairs"
+    },
+    {
+      "id": "L2-ESC",
+      "level": 2,
+      "x": 350,
+      "y": 500,
+      "type": "escalator"
+    },
+    {
+      "id": "L2-ELV",
+      "level": 2,
+      "x": 350,
+      "y": 900,
+      "type": "elevator"
+    },
+    {
+      "id": "L1-ENT-N",
+      "level": 1,
+      "x": 300,
+      "y": 30,
+      "type": "entrance"
+    },
+    {
+      "id": "L1-ENT-S",
+      "level": 1,
+      "x": 300,
+      "y": 970,
+      "type": "entrance"
+    },
+    {
+      "id": "L1-ENT-E",
+      "level": 1,
+      "x": 570,
+      "y": 500,
+      "type": "entrance"
+    },
+    {
+      "id": "L1-D-nike",
+      "level": 1,
+      "x": 200,
+      "y": 200,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-foot-locker",
+      "level": 1,
+      "x": 200,
+      "y": 300,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-zara",
+      "level": 1,
+      "x": 200,
+      "y": 400,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-apple",
+      "level": 1,
+      "x": 200,
+      "y": 600,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-sephora",
+      "level": 1,
+      "x": 200,
+      "y": 700,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-hm",
+      "level": 1,
+      "x": 200,
+      "y": 800,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-starbucks",
+      "level": 1,
+      "x": 400,
+      "y": 200,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-pharmacy",
+      "level": 1,
+      "x": 400,
+      "y": 300,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-restroom-1",
+      "level": 1,
+      "x": 400,
+      "y": 400,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-guest-services",
+      "level": 1,
+      "x": 400,
+      "y": 600,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-adidas",
+      "level": 1,
+      "x": 400,
+      "y": 700,
+      "type": "store_door"
+    },
+    {
+      "id": "L1-D-atm-1",
+      "level": 1,
+      "x": 400,
+      "y": 800,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-cinema",
+      "level": 2,
+      "x": 200,
+      "y": 200,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-lego",
+      "level": 2,
+      "x": 200,
+      "y": 300,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-books",
+      "level": 2,
+      "x": 200,
+      "y": 400,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-best-buy",
+      "level": 2,
+      "x": 200,
+      "y": 600,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-mcdonalds",
+      "level": 2,
+      "x": 400,
+      "y": 200,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-sushi",
+      "level": 2,
+      "x": 400,
+      "y": 300,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-restroom-2",
+      "level": 2,
+      "x": 400,
+      "y": 400,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-pizza",
+      "level": 2,
+      "x": 400,
+      "y": 600,
+      "type": "store_door"
+    },
+    {
+      "id": "L2-D-tacos",
+      "level": 2,
+      "x": 400,
+      "y": 700,
+      "type": "store_door"
+    }
+  ],
+  "edges": [
+    {
+      "from": "L1-C100",
+      "to": "L1-C200",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C200",
+      "to": "L1-C300",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C300",
+      "to": "L1-C400",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C400",
+      "to": "L1-C500",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C500",
+      "to": "L1-C600",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C600",
+      "to": "L1-C700",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C700",
+      "to": "L1-C800",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C800",
+      "to": "L1-C900",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C100",
+      "to": "L1-STAIRS",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L1-C500",
+      "to": "L1-ESC",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L1-C900",
+      "to": "L1-ELV",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L2-C100",
+      "to": "L2-C200",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C200",
+      "to": "L2-C300",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C300",
+      "to": "L2-C400",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C400",
+      "to": "L2-C500",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C500",
+      "to": "L2-C600",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C600",
+      "to": "L2-C700",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C700",
+      "to": "L2-C800",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C800",
+      "to": "L2-C900",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C100",
+      "to": "L2-STAIRS",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L2-C500",
+      "to": "L2-ESC",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L2-C900",
+      "to": "L2-ELV",
+      "distanceMeters": 10
+    },
+    {
+      "from": "L1-ESC",
+      "to": "L2-ESC",
+      "distanceMeters": 15
+    },
+    {
+      "from": "L1-ELV",
+      "to": "L2-ELV",
+      "distanceMeters": 6
+    },
+    {
+      "from": "L1-STAIRS",
+      "to": "L2-STAIRS",
+      "distanceMeters": 12
+    },
+    {
+      "from": "L1-ENT-N",
+      "to": "L1-C100",
+      "distanceMeters": 14
+    },
+    {
+      "from": "L1-ENT-S",
+      "to": "L1-C900",
+      "distanceMeters": 14
+    },
+    {
+      "from": "L1-C500",
+      "to": "L1-ENT-E",
+      "distanceMeters": 54
+    },
+    {
+      "from": "L1-C200",
+      "to": "L1-D-nike",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C300",
+      "to": "L1-D-foot-locker",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C400",
+      "to": "L1-D-zara",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C600",
+      "to": "L1-D-apple",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C700",
+      "to": "L1-D-sephora",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C800",
+      "to": "L1-D-hm",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C200",
+      "to": "L1-D-starbucks",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C300",
+      "to": "L1-D-pharmacy",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C400",
+      "to": "L1-D-restroom-1",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C600",
+      "to": "L1-D-guest-services",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C700",
+      "to": "L1-D-adidas",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L1-C800",
+      "to": "L1-D-atm-1",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C200",
+      "to": "L2-D-cinema",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C300",
+      "to": "L2-D-lego",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C400",
+      "to": "L2-D-books",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C600",
+      "to": "L2-D-best-buy",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C200",
+      "to": "L2-D-mcdonalds",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C300",
+      "to": "L2-D-sushi",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C400",
+      "to": "L2-D-restroom-2",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C600",
+      "to": "L2-D-pizza",
+      "distanceMeters": 20
+    },
+    {
+      "from": "L2-C700",
+      "to": "L2-D-tacos",
+      "distanceMeters": 20
+    }
+  ],
+  "entrances": [
+    {
+      "id": "main-north",
+      "name": "Main Entrance (North)",
+      "nodeId": "L1-ENT-N"
+    },
+    {
+      "id": "south",
+      "name": "South Entrance",
+      "nodeId": "L1-ENT-S"
+    },
+    {
+      "id": "parking-east",
+      "name": "Parking Entrance (East)",
+      "nodeId": "L1-ENT-E"
+    }
+  ]
+}
